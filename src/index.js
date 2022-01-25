@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // @ts-check
 const expUa = require('express-useragent');
 const isBot = require('isbot');
