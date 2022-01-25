@@ -1,0 +1,19 @@
+{
+  "name": "@jaredh159/parse-useragent",
+  "version": "1.0.0",
+  "description": "a cli wrapper for exposing node useragent data",
+  "main": "./src/index.js",
+  "bin": {
+    "parse-useragent": "./src/index.js"
+  },
+  "keywords": [],
+  "author": "Jared Henderson <jared@netrivet.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express-useragent": "^1.0.15",
+    "isbot": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12"
+  }
+}
