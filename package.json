@@ -6,6 +6,9 @@
   "bin": {
     "parse-useragent": "./src/index.js"
   },
+  "scripts": {
+    "npub:precheck": "true"
+  },
   "keywords": [],
   "author": "Jared Henderson <jared@netrivet.com>",
   "license": "MIT",
