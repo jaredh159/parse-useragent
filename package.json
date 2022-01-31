@@ -1,6 +1,6 @@
 {
   "name": "@jaredh159/parse-useragent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a cli wrapper for exposing node useragent data",
   "main": "./src/index.js",
   "bin": {
