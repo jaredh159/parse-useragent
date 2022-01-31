@@ -9,5 +9,6 @@ if (process.argv.length < 2) {
 
 const userAgent = process.argv.pop();
 const parsed = expUa.UserAgent().parse(userAgent);
-parsed.isBot = parsed.isBot || isBot(userAgent);
+// types are wrong, one of these libraries sometimes returns strings, like "Google" for isBot
+parsed.isBot = !!(parsed.isBot || isBot(userAgent));
 console.log(JSON.stringify(parsed, null, 2));
